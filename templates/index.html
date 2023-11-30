@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Simple Flask Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #FDE9EA;
+        }
+
+        .header-container {
+            padding: 30px;
+            padding-bottom: 10px;
+            font-family: 'Playfair', serif;
+            font-size: 80px;
+            color: #E7B5AC;
+            background-color: #FDE9EA;
+            border-bottom: 15px double #E7B5AC;
+            text-align: center;
+        }
+
+        .outer-text-container {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .text-container {
+            width: 60%;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: 'Roboto Flex', sans-serif;
+            padding: 40px;
+            border-bottom: 1px solid #E7B5AC;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header-container">
+        <header>My Simple Flask Webpage</header>
+    </div>
+    <div class="outer-text-container">
+        <div class="text-container">
+            <p>This is my simple webpage that I created using Flask as the framework. </p>
+            <p>
+                To build this webpage, I first had to check that pip and Python were installed so that I could use pip to download Flask. 
+                After I was sure that both of these programs were installed, I was successfully able to run the command 'import flask' which
+                confirmed that Flask was ready to be used. 
+            </p>
+            <p>
+                After reading some Flask documentation, I set up several components to ensure that the Flask app could run properly. Firstly, 
+                I created a file named 'app.py' which would serve as the main file for my application. After making the 'app.py' file and 
+                building its structure, I built a venv folder to download any new Python packages and made a 'templates' folder to hold 
+                my HTML templates for the Flask application.
+            </p>
+            <p>
+                Inside of the templates folder, I created this HTML file and named it index.html to indicate that this is the main HTML 
+                file of my application. By writing my HTML code in this file and rendering the template into the 'app.py' Python file, 
+                I was able to get my application working on localhost.
+            </p>
+            <p>
+                Once my application was working on localhost, I put my code on GitHub and used DigitalOcean as the platform to host my 
+                website. By using DigiticalOcean and giving it access to my Github, I was able to host my website on a domain. This 
+                domain ensured that my site could be publicly viewable outside of my localhost.
+            </p>
+            <p>
+                The main difficulty that I encountered while building this website was looking for a way to publicly host the website. 
+                After reading and watching documentation from DigitcalOcean, I solved the issue by using my GitHub to link the code 
+                to the platform. Additionally, when first using Flask I was unsure of what folders would be mandatory and what 
+                folders were optional. If mandatory folders were not added, the application would give errors due to missing 
+                components. I solved this issue by taking note of errors and fixing my main code structure so that it followed 
+                the recommended documentation and structure of Flask.
+            </p>
+            <p>
+                Overall, after working with Flask I would highly recommend it to be used for small-scale web development applications.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
